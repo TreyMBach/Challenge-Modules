@@ -33,3 +33,19 @@ Work Done:
 - Got bones of project done including text, one image in about me section and all sections labeled.
 - Was able to get flex section done for all areas as I knew that was going to give me the most trouble i wanted to get that part done first at most.
 - All areas are able to flex to whatever application so far.
+
+Day - 2 - 7.3.22
+Start Time - 9:00 pm
+End Time - 10:00 pm
+
+Goals: To get the work section done with and in order to be able to show my projects.
+
+Work Done:
+- Was about to add more to the My Work section including picture placeholders to able to input pictures for future work
+- Put flex box for those images and made it so the first image was the biggest for the currect project
+- Fixed the buttons in the navigation to go to the certain anchor tags like the "about me" or "contact me" section for navigation purposes
+
+Day - 3 - 7.4.22
+Start Time - 
+
+Goals: Finish The design entirely as the frame work is done I just have to type up the bio and put in pictures wiht the appropriate styling.

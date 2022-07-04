@@ -22,11 +22,11 @@
             <!--NAVIGATION BAR-->    
             <nav>   
 
-                <a href="#">ABOUT ME</a>
+                <a href="#aboutMeHeader" class="aboutMe">ABOUT ME</a>
 
-                <a href="#">MY WORK</a>
+                <a href="#myWorkHeader" class="myWork">MY WORK</a>
 
-                <a href="#">CONTACT ME</a>
+                <a href="#contactMeHeader" class="contactMe">CONTACT ME</a>
 
             </nav>
         </div>
@@ -41,7 +41,7 @@
             <!--ABOUT ME SECTION WITH BODY OF TEXT-->
             <section class="aboutMe">
                 
-                <header>
+                <header id="aboutMeHeader">
                     <h2>ABOUT ME</h2>
                 </header>
                 
@@ -58,13 +58,43 @@
             <!--MY WORK SECTION WITH PICTURES OF WORK-->
             <section class="myWork">
     
-                <h2>MY WORK</h2>
+
+                <header id="myWorkHeader">
+
+                    <h2>MY WORK</h2>
+
+                </header>
+
+
+                <!--Container for the Current Project to be able to showcase this is as the main project.-->
+                <div id="containerMain">
+
+                    <img id="mainProject" src="" alt="Work 1">
+
+                </div>
+
+
+                <!--Container for the other 3 images to be able to flex those 3.-->
+                <div id="container">
+
+                    <img src="" alt="Work 2">
+
+                    <img src="" alt="Work 3">
+                    
+                    <img src="" alt="Work 4">
+
+                </div>
     
             </section>
     
             <!--CONTACT ME SECTION WITH CONTACT CARDS-->
             <section class="contactMe">
-                <h3>CONTACT ME</h2>
+                
+                <header id="contactMeHeader">
+
+                    <h2>CONTACT ME</h2>
+
+                </header>
                 
                 <div id="container">
                     

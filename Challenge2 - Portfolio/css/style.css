@@ -1,7 +1,11 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
 }
 
 header{
@@ -21,8 +25,18 @@ nav a{
     border: 1px solid orange;
     border-radius: 10px;
     text-decoration: none;
-    color: purple;
+    cursor: pointer;
 }
+
+nav a:hover{
+    background-color: grey;
+}
+
+nav a .aboutMe:active{
+    scroll-behavior: smooth;
+    top: 10;
+}
+
 
 .aboutMe header{
     font-size: 20px;
@@ -56,10 +70,40 @@ nav a{
     text-align: center;
 }
 
+.myWork #containerMain{ 
+    display: flex;
+    justify-content: center;
+}
 
+.myWork #mainProject {
+    min-width: 400px;
+    height: 400px;
+    flex-basis: 0;
+}
 
+.myWork #container {
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
 
-.contactMe h3 {
+.myWork img {
+    min-width: 300px;
+    height: 300px;
+    background-color: grey;
+    border: 2px solid black;
+    margin: 10px;
+
+}
+
+.myWork #centralWork {
+    min-width: 400px;
+    flex-basis: 0;
+}
+
+.contactMe h2 {
     text-align: center;
 }
 
@@ -80,6 +124,8 @@ nav a{
 
 footer{
     text-align: center;
+    background: black;
+    color: white;
 }
 
 
