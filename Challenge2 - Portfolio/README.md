@@ -46,6 +46,13 @@ Work Done:
 - Fixed the buttons in the navigation to go to the certain anchor tags like the "about me" or "contact me" section for navigation purposes
 
 Day - 3 - 7.4.22
-Start Time - 
+Start Time - 9:00 pm
+End Time - 11:00 pm
 
 Goals: Finish The design entirely as the frame work is done I just have to type up the bio and put in pictures wiht the appropriate styling.
+
+Work Done: 
+- Was able to finish the whole criteria including the reponsive layout.
+- Finished Typing up the bio in the about me section
+- Application has picture that allows to be click to be brought to original application
+- Commented on all html and css elements, and with semantic elements.
